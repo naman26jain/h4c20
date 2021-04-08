@@ -1837,3 +1837,14 @@ section .section-title {
     margin: auto;
     align-self: center;
 }
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.student {
+    font-size: 1.4rem;
+    margin: 0.5em;
+}
