@@ -137,7 +137,7 @@ jQuery(document).ready(function($) {
  });
 
  $('.countdown').downCount({
-  date: '03/11/2020 12:00:00',
+  date: '04/30/2021 16:00:00',
   offset: +10
 }, function () {
   alert('WOOT WOOT, done!');
