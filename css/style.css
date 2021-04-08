@@ -1834,13 +1834,15 @@ section .section-title {
 
 .sponsor-link {
     margin: auto;
-    width: 90vw;
+    /* width: 90vw; */
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .sponsor-img {
+    width: 100px;
+    display: block;
     margin: auto;
 }
 
