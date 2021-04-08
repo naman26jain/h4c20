@@ -93,7 +93,7 @@ h6 {
 
 #header #logo h1 {
   font-size: 36px;
-  margin: -4px 0 0 0;
+  margin: -5px 0 0 0;
   padding: 0;
   line-height: 1;
   display: inline-block;
@@ -161,15 +161,15 @@ h6 {
 #intro h2 {
   margin: 10px 0 10px 0;
   padding: 0 15px;
-  font-size: 70px;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 56px;
   color:white;
   
   color: rgb(255, 253, 253);
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-                 0px -5px 35px rgba(255,255,255,0.3);
-  text-shadow: 7px 7px 2px black, 0 0 25px black, 0 0 25px black;
+  /* text-shadow: 0px 5px 3px rgba(0,0,0,0.2),
+                 0px -3px 35px rgba(255,255,255,0.3); */
+  text-shadow: 4px 4px 2px black, 0 0 25px black, 0 0 25px black;
 }
 
 #intro p {
@@ -243,7 +243,7 @@ h6 {
 ul.countdown {
   list-style: none;
   margin: 0 0;
-  padding: 0;
+  padding: 0.4em;
   display: block;
   text-align: center;
   color: white;
@@ -258,7 +258,7 @@ ul.countdown li span {
   font-size: 60px;
   font-weight: 300;
   line-height: 80px;
-  -webkit-text-stroke: 2px black;
+  /* -webkit-text-stroke: 2px black; */
   font-weight: 500;
 }
 
@@ -266,8 +266,8 @@ ul.countdown li.seperator {
   font-size: 80px;
   line-height: 70px;
   vertical-align: top;
-  color: black;
-  -webkit-text-stroke: 1px white;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
 }
 
 ul.countdown li p {
