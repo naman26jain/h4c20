@@ -46,6 +46,13 @@ h6 {
     padding: 0;
 }
 
+.group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* Back to top button */
 
 .back-to-top {
@@ -120,10 +127,9 @@ h6 {
     transition: all 0.5s;
 }
 
-#header{
-    background: rgba(0,0,0,0.5);
+#header {
+    background: rgba(0, 0, 0, 0.5);
 }
-
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -926,7 +932,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .sponsor > a > img {
+    max-width: 200px !important;
+    max-height: 150px;
+}
+.sponsor > a {
     width: 200px !important;
+    height: 150px;
 }
 
 .students {
